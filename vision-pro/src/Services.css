@@ -1,0 +1,82 @@
+.services-container {
+  padding: 200px;
+  background-color: white;
+  width: 200%;
+}
+
+
+
+.progress-bars {
+  margin-bottom: 20px;
+  
+  
+}
+
+.service-card {
+  padding: 10px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.progress-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.custom-progress {
+  height: 100%; /* Make progress bar thinner */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #e6e6e6; /* Light gray background */
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.custom-progress .progress-bar {
+  border-radius: 5px; /* Rounded corners for inner bar */
+  font-size: 12px;
+  font-weight: bold;
+  color: #000; /* Dark text color for readability */
+  text-align: right;
+  padding-right: 5px;
+}
+
+.cpu-progress .progress-bar {
+  background-color: #4caf50; /* Green color */
+}
+
+.ram-progress .progress-bar {
+  background-color: #2196f3; /* Blue color */
+}
+
+.memory-progress .progress-bar {
+  background-color: #ff9800; /* Orange color */
+}
+
+.add-service-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.no-details {
+  text-align: center;
+  color: #666;
+}
+
+.placeholder-icon {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.no-details p {
+  font-size: 16px;
+  color: #666;
+}
+

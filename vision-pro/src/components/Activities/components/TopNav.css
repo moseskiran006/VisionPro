@@ -1,0 +1,12 @@
+.top-nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.user-info {
+  margin-left: 10px;
+}

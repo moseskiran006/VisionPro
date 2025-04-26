@@ -1,0 +1,79 @@
+.events-container {
+  padding: 20px;
+}
+
+.search-controls {
+  margin-bottom: 20px;
+}
+
+.search-filters {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filter-input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 150px;
+}
+
+.export-button {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.grid-container {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+  max-height: 600px;
+}
+
+.excel-grid {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.excel-grid th,
+.excel-grid td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.excel-grid th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.excel-grid tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.excel-grid tr:hover {
+  background-color: #f0f0f0;
+}
+
+.loading,
+.error {
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+}
